@@ -44,3 +44,39 @@ A REST API backend for an anime recommendation system using the AniList GraphQL 
  ### to run
  npm install
  nodemon app.js
+
+ ## 🔧 Environment Variables Template
+
+Create a `.env` file in your project root with the following variables:
+
+```env
+# ========================
+# Database Configuration
+# ========================
+DB_NAME=anime_recommendation
+DB_USER=postgres
+DB_PASSWORD=your_postgres_password
+DB_HOST=localhost
+DB_PORT=5432  # Default PostgreSQL port
+
+# ========================
+# JWT Authentication
+# ========================
+JWT_SECRET=your_secure_jwt_secret_key_here
+JWT_EXPIRES_IN=7d  # Token expiration (e.g., 7d, 24h)
+
+# ========================
+# Server Configuration
+# ========================
+PORT=5000  # Server port
+
+# ========================
+# External APIs
+# ========================
+ANILIST_API_URL=https://graphql.anilist.co  # AniList GraphQL endpoint
+
+# ========================
+# Production Overrides (Render.com)
+# ========================
+# DATABASE_URL=postgres://user:password@host:5432/dbname
+# NODE_ENV=production
