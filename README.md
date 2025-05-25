@@ -1,0 +1,40 @@
+# Anime Recommendation System - Backend
+
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
+![Express](https://img.shields.io/badge/Express-4.x-lightgrey)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
+![Render](https://img.shields.io/badge/Deployed_on-Render-46d3ff)
+
+A REST API backend for an anime recommendation system using the AniList GraphQL API, built with Node.js, Express, and PostgreSQL.
+
+##  Live Deployment
+**Backend API**: [https://anime-recommend-0og0.onrender.com](https://anime-recommend-0og0.onrender.com)  
+
+
+##  Features
+- JWT Authentication (Register/Login)
+- Anime search by name or genre
+- Personalized recommendations based on user preferences
+- PostgreSQL database integration
+- CORS-enabled for frontend connectivity
+- Rate limiting for API endpoints
+
+##  Tech Stack
+- **Framework**: Express.js
+- **Database**: PostgreSQL (with Sequelize ORM)
+- **Authentication**: JWT
+- **External API**: AniList GraphQL API
+- **Deployment**: Render.com
+
+## Getting Started
+
+### Prerequisites
+- Node.js 18.x
+- PostgreSQL 15+
+- AniList API access (no key required)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/anime-recommendation-backend.git
+   cd anime-recommendation-backend
