@@ -34,7 +34,13 @@ A REST API backend for an anime recommendation system using the AniList GraphQL 
 - AniList API access (no key required)
 
 ### Installation
+
+  
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/anime-recommendation-backend.git
    cd anime-recommendation-backend
+
+ ### to run
+ npm install
+ nodemon app.js
